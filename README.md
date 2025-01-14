@@ -24,14 +24,12 @@ This project will provide a expository visualization to communicate the an idea 
 
 
 
-
-
 # Brainstorm Ideas
+- What is the best month to travel?
+    - low tempature in summer and high tempature in winter
 - identifying which city is most similar to the other?
     - purpose: informing people which city they can move to 
-- identifying which city is most favouriable to travel?
-- 
-
+- identifying which city is most favouriable to travel? more sunshine during winter and less during summer
 
 
 <!-- - creating visualization that help people knowing the best time to visit each city
@@ -50,8 +48,3 @@ This project will provide a expository visualization to communicate the an idea 
 - the best city to have vaction in a specifc time of the year
     - reveal the extreme whether condition
 - how geography information correlation with the sunshine and rain -->
-
-
-TODO:
-- rainfall comparsion based on latitude 
-- rainfall comparsion based on lontitude
