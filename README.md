@@ -1,5 +1,7 @@
-# dsc106_proj1
-This is a Working repository for dsc 106 project 1. In this project, we were  given a [climate dataset](https://github.com/dsc-courses/dsc106-wi24/raw/gh-pages/resources/data/weather.csv) that contain information of the climate in major U.S. Cities.
+# Project overview
+This is a project creating a static visualization of how sunshine impact the life expectancy in US. In this project, we will explore and visualize two datasets: [climate dataset](https://www.usclimatedata.com/) and [US Life Expectancy at Birth](https://www.cdc.gov/nchs/data-visualization/life-expectancy/index.html). 
+
+The climate dataset contains information of the climate in major U.S. Cities.
 
 The data contains in total 7 columns:
 - **`city`**: The name of the city.
@@ -10,41 +12,32 @@ The data contains in total 7 columns:
 - **`sunshine`**: The average hours of sunshine observed during that month.
 - **`rain`**: The average inches of rain observed during that month.
 
-This project will provide a expository visualization to communicate the an idea from the data set. Following by an visualization, an rigorous rationale of the design will be discussed.
+The US life Expectency dataset contains information of the life expectancy of each US County
+
+The data contains in total 6 columns:
+- **`State`**: US states
+- **`County`**: Specifies the county (and state) associated within the US states
+- **`Census Tract Number`**: A unique identifier for the census tract within the county. Census tracts are small, relatively permanent statistical subdivisions of a county.
+- **`Life Expectancy`**: Represents the average life expectancy at birth for individuals in the given census tract, measured in years.
+- **`Life Expectancy Range`**: The range of life expectancy values (e.g., lower and upper bounds) observed within the census tract, indicating variability in life expectancy.
+- **`Life Expectancy Standard Error`**: The standard error of the life expectancy estimate, which measures the precision of the life expectancy data. Smaller values indicate more reliable estimates.
 
 
 # Key finding from exploratory data analysis
 ---
+## Major Findings
+![Sunshine and Rainfall](pics/sinshine_diff.png)
+
+- San Francisco tends to have the most sunshine in winter and least in summer
+
+![Sunshine and Life Expectancy](pics/exoected_lifespan.png)
+
+- Counties with higher average sunshine hours tend to have higher life expectancy.
+- San Francisco tends to have the best life span
+
+## Trival Findings
 - Miami city has the less flucuation of the sunshine acorss year
 - Chicago city has the most flucuation of the sunshine amount across year
 - all the avaliable city is located near the oceanside
 - left of US tend to have less rainfall, and right of US tend to have more rainfall
 - the rain fall season in San Diego and San Francisco is at the beginning and the end of the year, whiles other 4 citities are exactally opposite
-
-
-
-
-# Brainstorm Ideas
-- What is the best month to travel?
-    - low tempature in summer and high tempature in winter
-- identifying which city is most similar to the other?
-    - purpose: informing people which city they can move to 
-- identifying which city is most favouriable to travel? more sunshine during winter and less during summer
-
-
-<!-- - creating visualization that help people knowing the best time to visit each city
-    - visualizing the change in sunshine and rain acorss month in each big locations
-- the impact of lontitude and latitude on sunshines each month
-    - prove to technious there is correlation bewteen coordinates and sunshine and rainfall
-- all of the city is located on the edge of the US map and they are near the ocean
-    - city located near the ocean usually follow a similar trend on sunshine and rain fall
-- which city are most similar to another
-    - 
-
-
-
-
-- reveal the underline trend or pattern between sunshine and rainfall
-- the best city to have vaction in a specifc time of the year
-    - reveal the extreme whether condition
-- how geography information correlation with the sunshine and rain -->
