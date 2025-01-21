@@ -41,3 +41,28 @@ The data contains in total 6 columns:
 - all the avaliable city is located near the oceanside
 - left of US tend to have less rainfall, and right of US tend to have more rainfall
 - the rain fall season in San Diego and San Francisco is at the beginning and the end of the year, whiles other 4 citities are exactally opposite
+
+# Thinking process on data visualization
+---
+- research Question: How does seasonal sunshine impact peoples' health in the US oceanside cities
+- subtitle: San Francisco with proper seasonal monthly sunshine hour makes its citizen have the highest average life expectancy
+
+Data type:
+- oceanside City: Nominal data
+- Average monmthly sunshine: Quantitative Ratio
+- season: Ordinal
+- life expectancy: Quantitative Ratio
+- life expectancy category: Ordinal
+
+vis on weather data
+mark: dot
+- color: blue for winter season and red for summer season
+- shape: circle for winter season and square for summer season
+- x-axis: oceanside city
+- y-axis: sunhine hour
+
+vis on life expecetancy
+- mark: stacked-bar
+- color: proportion of the area is that above or below the US average life expectancy 77
+- x - axis: oceanside city
+- y - axis: proportion 0 to 1
