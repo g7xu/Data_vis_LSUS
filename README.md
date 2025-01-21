@@ -66,3 +66,7 @@ vis on life expecetancy
 - color: proportion of the area is that above or below the US average life expectancy 77
 - x - axis: oceanside city
 - y - axis: proportion 0 to 1
+
+As a result, we get the following to visualization:
+![Sunshine](pics/sunshine_trend.png)
+![Life Expectancy](pics/life_expectancy_trend.png)
