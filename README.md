@@ -70,3 +70,6 @@ vis on life expecetancy
 As a result, we get the following to visualization:
 ![Sunshine](pics/sunshine_trend.png)
 ![Life Expectancy](pics/life_expectancy_trend.png)
+
+# Final visualization
+![LSUS](pics/LSUS.png)
