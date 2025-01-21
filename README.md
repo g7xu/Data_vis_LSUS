@@ -1,3 +1,5 @@
+![LSUS](pics/LSUS.png)
+
 # Project overview
 This is a project creating a static visualization of how sunshine impact the life expectancy in US. In this project, we will explore and visualize two datasets: [climate dataset](https://www.usclimatedata.com/) and [US Life Expectancy at Birth](https://www.cdc.gov/nchs/data-visualization/life-expectancy/index.html). 
 
@@ -70,6 +72,3 @@ vis on life expecetancy
 As a result, we get the following to visualization:
 ![Sunshine](pics/sunshine_trend.png)
 ![Life Expectancy](pics/life_expectancy_trend.png)
-
-# Final visualization
-![LSUS](pics/LSUS.png)
